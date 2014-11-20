@@ -1,24 +1,17 @@
 package com.bufoon.util;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.security.MessageDigest;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import com.bufoon.entity.User;
-import com.bufoon.service.user.UserService;
 
 import sun.misc.BASE64Encoder;
 
 /**
- * Í¨ÓÃ¹¤¾ßÀà
+ * Í¨ï¿½Ã¹ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 public class Util {
 
 	/**
-	 * ¶Ô×Ö·û´®½øÐÐMD5¼ÓÃÜ
+	 * ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½MD5ï¿½ï¿½ï¿½ï¿½
 	 * 
 	 * @param str
 	 * @return String
@@ -37,11 +30,11 @@ public class Util {
 	
 
 	/**
-	 * ÅÐ¶Ï×Ö·û´®ÊÇ·ñÎª¿Õ
+	 * ï¿½Ð¶ï¿½ï¿½Ö·ï¿½ï¿½Ç·ï¿½Îªï¿½ï¿½
 	 * 
 	 * @param str
-	 *            ×Ö·û´®
-	 * @return true£ºÎª¿Õ£» false£º·Ç¿Õ
+	 *            ï¿½Ö·ï¿½
+	 * @return trueï¿½ï¿½Îªï¿½Õ£ï¿½ falseï¿½ï¿½ï¿½Ç¿ï¿½
 	 */
 	public static boolean isNull(String str) {
 		if (str != null && !str.trim().equals("")) {

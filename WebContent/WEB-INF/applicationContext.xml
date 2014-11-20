@@ -36,7 +36,7 @@
 		<property name="dataSource">
 			<ref bean="dataSource" />
 		</property>
-		<property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+		<property name="configLocation" value="WEB-INF/hibernate.cfg.xml"/>
 		<!-- 自动扫描注解方式配置的hibernate类文件 -->
 		<property name="packagesToScan">
 			<list>
